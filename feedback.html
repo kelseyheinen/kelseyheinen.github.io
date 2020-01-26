@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=League+Script|Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Your own CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Content for browser tab  -->
+  <title>CHI10</title>
+  <link rel="icon" href="chicagoflag.png">
+</head>
+
+<body>
+  <!-- Navbar from bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <!-- Left sie of nav bar with site heading and logo -->
+      <a class="navbar-brand" href="#">
+        <img src="chicagoflag.png" class="d-inline-block align-middle">
+        Chicago 10: A new kind of restauarant list
+      </a>
+
+      <!-- Toggle functionality -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links to other pages -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="list.html">The List</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="feedback.html">Feedback<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>  
+      </div>
+
+    </div>
+  </nav>
+
+
+  <div class="container text-center">
+    <h1>Share Your Reccomendations</h1>
+  </div>
+
+  <div class="container my-5">
+    <form action="https://formspree.io/mnqpgplj" method="post">
+      <div class="form-group">
+        <label for="name">Your name</label>
+        <input type="text" class="form-control" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email">
+        <small class="form-text text-muted">Your email address will only be used to spam you – and we won't sell it, unless we get a really good offer.</small>
+      </div>
+      <div class="form-group">
+        <label for="username">Github username</label>
+        <input type="username" class="form-control" id="username" name="username">
+      </div>
+      <div class="form-group">
+        <label>How should we contact you?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="contactMethod" id="contactEmail" value="email" checked>
+          <label class="form-check-label" for="contactEmail">
+            Email
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="contactMethod" id="contactPhone" value="phone">
+          <label class="form-check-label" for="contactPhone">
+            Phone
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="contactMethod" id="contactPigeon" value="pigeon">
+          <label class="form-check-label" for="contactPigeon">
+            Carrier Pigeon
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+
+    <!-- Footer & Use Font Aweseome-->
+    <div class="footer">
+      <p><i class="fas fa-utensils"></i>  Chicago 10: A new kind of restauarant list </p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
