@@ -1,78 +1,105 @@
-/* Typography */
-body {
-    /* Everything is Montserrat */
-    font-family: 'Montserrat', sans-serif;
-  }
-    /* Except we're using more specific rules to override the headlines */
-   h1 {
-        font-family: 'League Script', cursive;
-        font-weight: bold;
-        font-size: 40px;
-        text-align: center;
 
-      }
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-      }
-      h3, h4, h5, h6 {
-        font-family: 'League Script', cursive;
-        font-weight: bold;
-      }
-    
-  /* And the "logo" */
-  .navbar-brand {
+/* body font is Montserrat */
+    body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    }
+
+/* headers 1 and 2 are bad script in declining sizes, h2 montserrat */
+h1 {
     font-family: 'League Script', cursive;
-    font-size: 22px;
     font-weight: bold;
-  }
-  .navbar-brand img {
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    }
+
+h3 {
+    font-family: 'League Script', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    }
+
+/* headers 4 -6 are Montserrat */
+h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    }
+
+/* Paragraph set margin = 0 to avoid white space */
+p {
+    margin: 0;  
+}
+/* Navbar Styles */
+/* Resize the chicago flag image */
+.navbar-brand img {
     width: 45px;
     height: 40px;
-  }
-  .navbar-light .navbar-brand {
+}
+
+/* make the navbar text red */
+.navbar-light .navbar-brand {
     color: red;
-  }
-  
-  /* Navbar background color */
-  .navbar {
-    background-color:white;
-  }
-  
-  /* Jumbotron background and font styles */
-  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
-  .jumbotron {
-    /* Background */
+    }
+
+    
+/* Jumbotron Sytles */
+.jumbotron {
+/* Background */
     background-attachment: fixed;
     background-image: url(chicago-map-bw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  
-    /* Fonts */
+/* Fonts */
     color: red;
-  }
-  
-  /* The background color of the "testimonials" part */
-  .testimonials {
-    background-color: #eeeeee;
-  }
-  
-  /* The size of the testimonials images */
-  .media img {
-    width: 64px;
-    height: 64px;
-  }
-  
-  /* The pricing */
-  .pricing {
-    background-color: #181818;
-  }
-  .pricing h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: #cccccc;
-  }
-  
-  /* The footer */
-  .footer img {
-    width: 100px;
-  }
+}
+
+/* Carousel Sytles */
+.carousel-caption {
+    position: absolute;
+    top:-5px
+    }
+
+/* Table Styles for home page */
+    table.center {
+    widows: 30px;%; 
+    margin-left:35%; 
+    margin-right:35%;
+    margin-top: 2%;
+    margin-bottom: 2%
+    }
+
+/* Button */
+.btn-info {
+    color: white;
+    background-color: red;
+    border-color:red;
+    }
+
+/*Footer */
+.footer {
+    position: mt-auto;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    margin: 0;
+    font-family: 'League Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+
