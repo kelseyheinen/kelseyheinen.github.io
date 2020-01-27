@@ -30,7 +30,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <!-- Left sie of nav bar with site heading and logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="chicagoflag.png" class="d-inline-block align-middle">
         Chicago 10: A new kind of restauarant list
       </a>
@@ -59,56 +59,100 @@
     </div>
   </nav>
 
+<!-- Text Title --> 
+    <h1 class="feedback_header">Share Your Reccomendations...</h1>
 
-  <div class="container text-center">
-    <h1>Share Your Reccomendations</h1>
+<br>
+
+<!-- Form -->
+  <div class="container">
+    <form
+    action="https://formspree.io/xnqdajgz"
+    method="POST">
+
+    <div class=row>
+      <div class="col-md-2">
+        </div>
+      <div class="col-md-8">
+        <div class= "form-group">
+          <label>
+            The Occasion: </label>
+            <input type= "text" name="Occasion" class="form-control">
+          </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+    <div class=row>
+      <div class="col-md-2">
+        </div>
+      <div class="col-md-8">
+        <div class= "form-group">
+        <label>
+          The Restauarant:</label>
+          <input type="text" name="Restauarant" class="form-control">
+      </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+    <div class=row>
+      <div class="col-md-2">
+        </div>
+      <div class="col-md-8">
+        <div class= "form-group">
+        <label>
+          Your Name:</label>
+          <input type="text" name="name" class="form-control">  
+      </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+    <div class=row>
+      <div class="col-md-2">
+        </div>
+      <div class="col-md-8">
+        <div class= "form-group">
+        <label>
+          Your Email:   </label>
+          <input type="text" name="email" class="form-control">
+      </div>
+    </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+   
+    <div class=row>
+      <div class="col-md-2">
+        </div>
+      <div class="col-md-8">
+        <button type="submit" class="btn btn-primary">Share</button>
+      </div>
+      <div class="col-md-2">
+      </div>     
+  </form>
+   <br>
   </div>
+</div>
+ 
 
-  <div class="container my-5">
-    <form action="https://formspree.io/mnqpgplj" method="post">
-      <div class="form-group">
-        <label for="name">Your name</label>
-        <input type="text" class="form-control" id="name" name="name">
-      </div>
-      <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" name="email">
-        <small class="form-text text-muted">Your email address will only be used to spam you – and we won't sell it, unless we get a really good offer.</small>
-      </div>
-      <div class="form-group">
-        <label for="username">Github username</label>
-        <input type="username" class="form-control" id="username" name="username">
-      </div>
-      <div class="form-group">
-        <label>How should we contact you?</label>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="contactMethod" id="contactEmail" value="email" checked>
-          <label class="form-check-label" for="contactEmail">
-            Email
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="contactMethod" id="contactPhone" value="phone">
-          <label class="form-check-label" for="contactPhone">
-            Phone
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="contactMethod" id="contactPigeon" value="pigeon">
-          <label class="form-check-label" for="contactPigeon">
-            Carrier Pigeon
-          </label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+   <!-- display skyline -->
+   <div class="container">
+   <div class=row>
+    <img src="skyline.jpg"  class="img-fluid" alt="Responsive image">
+    </div>
   </div>
-
 
     <!-- Footer & Use Font Aweseome-->
-    <div class="footer">
-      <p><i class="fas fa-utensils"></i>  Chicago 10: A new kind of restauarant list </p>
-    </div>
+
+      <div class="footer">
+        <p><i class="fas fa-utensils"></i>  Chicago 10: A new kind of restauarant list </p>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -122,5 +166,4 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
 </body>
-
 </html>
