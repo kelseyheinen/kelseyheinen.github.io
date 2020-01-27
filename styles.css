@@ -53,6 +53,11 @@ p {
     margin-bottom: 10;
 }
 /* Navbar Styles */
+/* Edit the font  */
+.navbar-light .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    }
 /* Resize the chicago flag image */
 .navbar-brand img {
     width: 45px;
