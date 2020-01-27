@@ -85,12 +85,17 @@ p {
     margin-bottom: 2%
     }
 
-/* Button */
+/* Home Page Button */
 .btn-info {
     color: white;
     background-color: red;
     border-color:red;
     }
+
+.btn-info:hover {
+    background-color: gray;
+    border-color: gray;
+}
 
 /*Footer */
 .footer {
